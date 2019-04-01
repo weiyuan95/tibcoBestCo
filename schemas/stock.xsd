@@ -1,0 +1,15 @@
+<xs:schema targetNamespace="http://www.helloworld.com" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="stock" maxOccurs="unbounded" minOccurs="0">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="stock_name"/>
+        <xs:element type="xs:float" name="open_price"/>
+        <xs:element type="xs:long" name="open_time"/>
+        <xs:element type="xs:float" name="close_price"/>
+        <xs:element type="xs:long" name="close_time"/>
+        <xs:element type="xs:float" name="high"/>
+        <xs:element type="xs:float" name="low"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
