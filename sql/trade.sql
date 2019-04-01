@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS trade;
-create database trade;
-use trade;
+DROP DATABASE IF EXISTS ezstock_trade;
+create database ezstock_trade;
+use ezstock_trade;
 
 create table trade_transaction (
     username varchar(30) not null,

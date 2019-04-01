@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS payment;
-create database payment;
-use payment;
+DROP DATABASE IF EXISTS ezstock_payment;
+create database ezstock_payment;
+use ezstock_payment;
 
 create table payment_info (
     debitAccountId      varchar(50) not null,

@@ -12,9 +12,9 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-DROP DATABASE IF EXISTS Brokerage_stock_info;
-create database Brokerage_stock_info;
-use Brokerage_stock_info;
+DROP DATABASE IF EXISTS ezstock_stock_info;
+create database ezstock_stock_info;
+use ezstock_stock_info;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;

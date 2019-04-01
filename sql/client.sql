@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS client;
-create database client;
-use client;
+DROP DATABASE IF EXISTS ezstock_client;
+create database ezstock_client;
+use ezstock_client;
 
 -- client microservice
     -- Every client has only one api_key unique to him/her.
