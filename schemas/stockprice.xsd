@@ -1,5 +1,5 @@
-<xs:schema targetNamespace="http://www.helloworld.com" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="stock" minOccurs="0">
+<xs:schema targetNamespace="http://www.helloworlddd.com" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="stock">
     <xs:complexType>
       <xs:sequence>
         <xs:element type="xs:string" name="stock_name"/>
