@@ -10,5 +10,5 @@ create table telegram_user (
 );
 
 insert into telegram_user values (
-    ("apple", "252174031")
+    "apple", "252174031"
 )
